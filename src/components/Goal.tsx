@@ -7,8 +7,7 @@ export const Goal = () => {
       <Title>Our project goal</Title>
       <Typography clr='white' size='20px' textalign='left' weight='300'>
         Considering all the circumstances, we are bringing a combined solution, Venus Hybrid Energy Storage System (VHESS) which will produce energy
-        by using INSITU super critical CO2 and can Carbon di oxide which is at supercritical condition because of the Venus surface high temperature
-        and pressure.
+        by using INSITU CO2 which is at supercritical condition because of the Venus surface high temperature and pressure.
       </Typography>
 
       <ImageSection>

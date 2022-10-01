@@ -4,14 +4,14 @@ import { Typography } from './Typography';
 export const About = () => {
   return (
     <Container id='about'>
-      <Title>About us</Title>
+      <Title>Challenge</Title>
 
       <Typography clr='white' size='20px' textalign='left' weight='300'>
         Venus is called earth’s twin because of their similarity in size and structure. But with its sulfuric acid clouds, temperature of over 450°C,
         and surface pressure of 92 bar, is one of the most hostile planetary environments in the solar system. Due to this, Venus is facing problem
         regarding energy storage system for a long time. Previous missions to the surface of Venus have failed to operate for more than two hours. As
         the currently available batteries cannot operate in the extreme environment, our main challenge is to design an energy storage system that
-        supports a surface lander or rover on the surface of Venus for at least 60 days
+        supports a surface lander or rover on the surface of Venus for at least 60 days.
       </Typography>
 
       <ImageSection></ImageSection>
