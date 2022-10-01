@@ -20,7 +20,7 @@ const navItems = [
   },
   {
     id: 4,
-    name: 'Setup',
+    name: 'Components',
     to: '#setup'
   },
   {
