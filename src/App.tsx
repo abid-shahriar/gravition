@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import styled from 'styled-components';
+import { About } from './components/About';
+import { Components } from './components/Components';
+import { Goal } from './components/Goal';
+import { Home } from './components/Home';
+import { Navbar } from './components/nav/Nav';
+import { Team } from './components/Team';
 
-function App() {
+import './styles/main.scss';
+
+export const App = () => {
+  const [toggle, setToggle] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar toggle={toggle} setToggle={setToggle} />
+
+      <Main>
+        <Home />
+        <About />
+        <Goal />
+        <Components />
+        <Team />
+      </Main>
     </div>
   );
-}
+};
 
-export default App;
+const Main = styled.main`
+  margin-top: 4rem;
+`;

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+body {
+  background-color: #2d2d2d;
+  overflow-x: hidden;
+}
+
+// #root {
+//   max-width: 1200px;
+//   margin: 0 auto;
+// }
+
+html {
+  scroll-behavior: smooth;
+}
